@@ -110,7 +110,6 @@ for number in newarray {
     let IntInStr = String(number)
     var twoInt = ""
     var IntToWord = ""
-    print(number)
     for letter in IntInStr {
         if twoInt.count != 2 {
             twoInt += String(letter)            
