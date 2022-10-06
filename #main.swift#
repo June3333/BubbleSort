@@ -7,7 +7,96 @@ while true {
     }
 }
 
-
+ordered-10e0.txt
+ordered-10e0.txt
+ordered-10e0.txt
+ordered-10e0.txt
+ordered-10e0.txt
+ordered-10e1.txt
+ordered-10e1.txt
+ordered-10e1.txt
+ordered-10e1.txt
+ordered-10e1.txt
+ordered-10e2.txt
+ordered-10e2.txt
+ordered-10e2.txt
+ordered-10e2.txt
+ordered-10e2.txt
+ordered-10e3.txt
+ordered-10e3.txt
+ordered-10e3.txt
+ordered-10e3.txt
+ordered-10e3.txt
+ordered-10e4.txt
+ordered-10e4.txt
+ordered-10e4.txt
+ordered-10e4.txt
+ordered-10e4.txt
+ordered-10e5.txt
+ordered-10e5.txt
+ordered-10e5.txt
+ordered-10e5.txt
+ordered-10e5.txt
+reverse-ordered-10e0.txt
+reverse-ordered-10e0.txt
+reverse-ordered-10e0.txt
+reverse-ordered-10e0.txt
+reverse-ordered-10e0.txt
+reverse-ordered-10e1.txt
+reverse-ordered-10e1.txt
+reverse-ordered-10e1.txt
+reverse-ordered-10e1.txt
+reverse-ordered-10e1.txt
+reverse-ordered-10e2.txt
+reverse-ordered-10e2.txt
+reverse-ordered-10e2.txt
+reverse-ordered-10e2.txt
+reverse-ordered-10e2.txt
+reverse-ordered-10e3.txt
+reverse-ordered-10e3.txt
+reverse-ordered-10e3.txt
+reverse-ordered-10e3.txt
+reverse-ordered-10e3.txt
+reverse-ordered-10e4.txt
+reverse-ordered-10e4.txt
+reverse-ordered-10e4.txt
+reverse-ordered-10e4.txt
+reverse-ordered-10e4.txt
+reverse-ordered-10e5.txt
+reverse-ordered-10e5.txt
+reverse-ordered-10e5.txt
+reverse-ordered-10e5.txt
+reverse-ordered-10e5.txt
+random-10e0.txt
+random-10e0.txt
+random-10e0.txt
+random-10e0.txt
+random-10e0.txt
+random-10e1.txt
+random-10e1.txt
+random-10e1.txt
+random-10e1.txt
+random-10e1.txt
+random-10e2.txt
+random-10e2.txt
+random-10e2.txt
+random-10e2.txt
+random-10e2.txt
+random-10e3.txt
+random-10e3.txt
+random-10e3.txt
+random-10e3.txt
+random-10e3.txt
+random-10e4.txt
+random-10e4.txt
+random-10e4.txt
+random-10e4.txt
+random-10e4.txt
+random-10e5.txt
+random-10e5.txt
+random-10e5.txt
+random-10e5.txt
+random-10e5.txt
 var unsortedIntegers: [Double] = []
 
 //convert words to numbers
@@ -110,7 +199,7 @@ for number in newarray {
     let IntInStr = String(number)
     var twoInt = ""
     var IntToWord = ""
-    for letter in IntInStr {
+   s for letter in IntInStr {
         if twoInt.count != 2 {
             twoInt += String(letter)            
         }
@@ -176,4 +265,4 @@ for number in newarray {
     }
     SortedWords.append(IntToWord)
 }
-//print(SortedWords)
+print(SortedWords)
